@@ -134,17 +134,4 @@ python utils/validate_submission.py \
     --test-dir dataset/test
 ```
 
----
 
-##  Benchmark Results
-
-| Metric | Score / Value |
-|---|---|
-| **Macro $F_{0.5}$ Score** | **> 0.99** |
-| **Precision** | **> 0.99** |
-| **Recall** | **> 0.99** |
-| **Singleton Prediction Accuracy** | **99.4%** |
-| **Inference Throughput** | **1,200+ entities/sec** |
-| **Format & Schema Compliance** | **100% (Zero Rejection Errors)** |
-
----
