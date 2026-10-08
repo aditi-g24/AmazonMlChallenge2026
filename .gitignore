@@ -1,0 +1,60 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets (Large TSV / CSV files)
+dataset/
+**/dataset/
+*.tsv
+*.csv
+
+# Submission and Output Archives (Large files > 100MB)
+*.zip
+*.tar.gz
+*.7z
+*.rar
+output/
+**/output/
+
+# Operating System & IDE Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
