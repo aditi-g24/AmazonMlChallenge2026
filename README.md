@@ -12,7 +12,7 @@ The system resolves noisy, incomplete business entity fragments across multiple 
 
 ---
 
-## 📌 Architecture Overview
+## Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -29,7 +29,7 @@ flowchart TD
 
 ---
 
-## 🚀 Key Innovations & Methodology
+##  Key Innovations & Methodology
 
 ### 1. Strict Intra-Country Invariant
 Empirical validation across 12.5M+ cross-source records confirmed that true business matches occur strictly within the same country partition (`US`, `India`, `France`). Decoupling candidate generation into country partitions slashes comparison space from $O(N^2)$ to independent $O(N_c^2)$ spaces, dramatically reducing memory overhead.
@@ -59,7 +59,7 @@ Singletons (entities with 0 matches) receive a score of `1.0` on empty predictio
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 amazonn-ml/
@@ -92,7 +92,7 @@ amazonn-ml/
 
 ---
 
-## ⚡ Quickstart & Installation
+##  Quickstart & Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -122,7 +122,7 @@ The pipeline will:
 
 ---
 
-## 🔍 Validation & Submission Format
+##  Validation & Submission Format
 
 To manually validate the output files:
 
@@ -136,7 +136,7 @@ python utils/validate_submission.py \
 
 ---
 
-## 📊 Benchmark Results
+##  Benchmark Results
 
 | Metric | Score / Value |
 |---|---|
@@ -148,6 +148,3 @@ python utils/validate_submission.py \
 | **Format & Schema Compliance** | **100% (Zero Rejection Errors)** |
 
 ---
-
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
